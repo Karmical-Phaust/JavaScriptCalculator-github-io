@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    margin-top: 2.7%;
+    margin-bottom: 2.25%;
+    font-size: 3.25vw;
+}
+
+#form {
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+#btn-cont,
+#btn-end {
+    margin-top: 1.2%;
+    text-align: center;
+}
+
+#btn {
+    width: 4vw;
+    font-size: 1vw;
+    text-align: center;
+}
+
+#btn-ave,
+#btn-exc {
+    width: 12vw;
+    font-size: 0.93vw;
+    text-align: center;
+}
+
+input {
+    margin-top: 0.5%;
+    margin-bottom: 0.2%;
+    width: 16vw;
+    height: 1.1vw;
+    font-size: 1vw;
+}
+
+table {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+    text-align: center;
+}
+
+table,
+tr,
+th,
+td {
+    border: 3px ridge gray;
+    border-collapse: collapse;
+    font-size: 1.2vw;
+}

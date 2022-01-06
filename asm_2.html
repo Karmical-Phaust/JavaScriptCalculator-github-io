@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale: 1.0">
+    <link rel="stylesheet" href="asm_2.css">
+    <title>Bảng điểm</title>
+</head>
+
+<body>
+    <header>
+        <h1> Bảng điểm lớp: </h1>
+        <div id="form">
+            <form>
+                <label for="Họ tên"> Họ tên: </label>
+                <input name="Họ tên" id="name">
+                <br>
+                <label for="toán"> Điểm toán: </label>
+                <input name="toán" id="math">
+                <br>
+                <label for="lý"> Điểm lý: </label>
+                <input name="lý" id="physic">
+                <br>
+                <label for="hóa"> Điểm hóa: </label>
+                <input name="hóa" id="chemist">
+            </form>
+            <br>
+        </div>
+        <div id="btn-cont">
+            <button id="btn"> Nhập </button>
+        </div>
+    </header>
+    <main>
+        <table id="table">
+            <tr>
+                <th style="width: 8%;"> STT </th>
+                <th style="width: 28%;"> Họ tên </th>
+                <th style="width: 16%;"> Điểm toán </th>
+                <th style="width: 16%;"> Điểm lý </th>
+                <th style="width: 16%;"> Điểm hóa </th>
+                <th style="width: 16%;"> Điểm trung bình </th>
+            </tr>
+        </table>
+        <div id="btn-end">
+            <button id="btn-ave"> Tính điểm trung bình </button>
+            <button id="btn-exc"> Xác định học sinh giỏi </button>
+        </div>
+    </main>
+    <script src="asm_2.js"></script>
+</body>
+
+</html>
